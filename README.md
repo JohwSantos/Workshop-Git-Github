@@ -1,6 +1,15 @@
 "Workshop-Git-Github" 
 
-1. Introdução ao GitHub
+# 1 - Introdução ao Git e ao GitHub
+
+Explicar primeiro o git
+
+Depois o github
+
+Ressaltar a diferença
+
+# 2 - Como o Git e o Github são importantes
+
 Comece mostrando o GitHub como uma plataforma de hospedagem de código, usando exemplos reais e famosos para engajar os participantes:
 
 Acesse github.com/microsoft — mostre que grandes empresas hospedam seus projetos lá
@@ -9,7 +18,7 @@ Acesse github.com/microsoft/vscode — o próprio VS Code é open source e está
 
 Mostre estrelas, forks, commits e contribuidores para contextualizar a escala
 
-2. O Que é Git vs GitHub
+# 3 - O Que é Git vs GitHub
 Diferencie os dois conceitos antes de qualquer comando:
 
 Git → ferramenta de controle de versão que roda localmente no seu computador
