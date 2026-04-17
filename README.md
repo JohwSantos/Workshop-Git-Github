@@ -36,9 +36,22 @@ Criar uma pasta pelo CMD e entrar na mesma usando os comandos
 ```
 mkdir 'Nome da pasta' PARA CRIAR PASTA
 ```
+**mkdir**
+**mk** = make, Fazer/Criar
+**dir** = directory = Diretório/Pasta
+
+PODE SER ABREVIADO PARA **MD**
+
 ```
 cd 'Nome da pasta' PARA ENTRAR NA PASTA
 ```
+**cd**
+**c** = Change, Trocar/Mudar
+**d** = Directory, Diretório
+Pode ser util:
+´´´
+cd .. PARA VOLTAR NA PASTA "PAI"(pasta que esta um nivel acima da atual)
+´´´
 
 ## 4. Diferenciar uma pasta simples com um repositório local
 Ao abrir a pasta mostrar que não existe nada (De forma simples e Tecnica)
@@ -53,6 +66,8 @@ Abrir o VS Code no CMD com o comando
 ```
 code .
 ```
+**code** Chama o executavel do VSCode
+**.** na pasta que está atualmente
 
 Crie um arquivo index.html básico dentro do VS Code
 
