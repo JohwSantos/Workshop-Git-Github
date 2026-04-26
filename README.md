@@ -108,6 +108,17 @@ Agora vamos efetuar nosso primeiro commit e inserir uma mensagem com as alteraç
 ```
 git commit -am "Mensagem do usuario" 
 ```
+### Git log
+O comando git log permite visualizar o histórico de commits , junto com seu numero de identificação , mensagem, autor e data.Exibindo em ordem cornologica inversa, ou seja, o commit mais recente aparece primeiro
+````markdown 
+git log // mostra o histórico de commits 
+````
+### Git diff 
+O comendo git diff perfite vilxualizar a direrença de uma alteração feita no arquivo  antes dela ser commitada 
+ ````markdown
+ git diff // Mostra as alterações deitas
+ ````
+
 ## 9. Conectando ao Repositório Remoto
 Vamos conectar Repositorio ao remoto no GitHub com o comando
 ```
@@ -146,3 +157,32 @@ Com o comando
 git pull origin main
 ```
 Baixamos as mudanças feitas no Repositorio remoto
+
+## Git clone 
+É o comando que baixa uma cópia completa de um repositório remoto para a sua máquina local.
+
+````markdown 
+Git clone <url do repositório> // Clona o repositório 
+Cd Pasta do repositoro // Entra na pasta que está o repositório 
+Code  . // Abre no vs code 
+````
+
+## Branch 
+
+ As branch permitem que você trabalhe em diferentes versões de um projeto simultaneamente. Isso é útil para desenvolver novas funcionalidades, corrigir bugs ou experimentar ideias sem afetar o código principal. 
+
+ A branch padrão no Git é chamado de `master` ou `main`. É onde todas as outras branch nascem  ,ninguém costuma commitar diretamente nela já que ela é a versão principal do nosso código. 
+
+Os branches são fundamentais no Git, permitindo trabalhar em paralelo em diferentes recursos ou correções de código sem interferir no código principal. 
+
+### Ramificações 
+---
+Uma branch (ramificação) é como uma cópia paralela do seu projeto onde você pode fazer alterações sem afetar o código principal.
+
+**COMO CRIAR UMA BRANCH?** 
+
+````markdown 
+Git Branch “Nome-da-branch” //Cria uma ramificação nova
+Git switch “Nome-da-branch” //Troca para a Branch  
+Git Branch -a //lista todas as Branch 
+````
