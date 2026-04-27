@@ -109,12 +109,12 @@ Agora vamos efetuar nosso primeiro commit e inserir uma mensagem com as alteraç
 git commit -am "Mensagem do usuario" 
 ```
 ### Git log
-O comando git log permite visualizar o histórico de commits , junto com seu numero de identificação , mensagem, autor e data.Exibindo em ordem cornologica inversa, ou seja, o commit mais recente aparece primeiro
+O comando git log permite visualizar o histórico de commits , junto com seu numero de identificação , mensagem, autor e data. Exibindo em ordem cornologica inversa, ou seja, o commit mais recente aparece primeiro
 ````markdown 
 git log // mostra o histórico de commits 
 ````
 ### Git diff 
-O comendo git diff perfite vilxualizar a direrença de uma alteração feita no arquivo  antes dela ser commitada 
+O comendo git diff permite visualizar a diferença de uma alteração feita no arquivo  antes dela ser commitada 
  ````markdown
  git diff // Mostra as alterações deitas
  ````
@@ -128,7 +128,7 @@ Em seguida vamos verificar se foi criado seu Repositorio remoto com o comando
 ```
 git remote -v
 ```
-## 10. Atenticação com Token(PTA)
+## 10. Atenticação com Token(PAT)
 Como gerar o PAT:
 
 GitHub → foto de perfil → Settings
