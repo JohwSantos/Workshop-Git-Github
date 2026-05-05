@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f8fa; /* cor clara do GitHub */
+    color: #24292e; /* cor escura do GitHub */
+}
+
+header {
+    background-color: #f1502f; /* cor do Git */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: white;
+    border-left: 5px solid #24292e; /* cor do GitHub */
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #24292e; /* GitHub */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background-color: #24292e; /* GitHub */
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+tr:nth-child(even) {
+    background-color: #f6f8fa;
+}
+
+tr:hover {
+    background-color: #f1502f; /* Git */
+    color: white;
+}
